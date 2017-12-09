@@ -61,18 +61,4 @@ document.onkeypress = function(event) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
