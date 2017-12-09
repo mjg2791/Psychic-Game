@@ -1,39 +1,23 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Homework Assignment</title>
+<html>
+<head>
+  <title>Mind Reader</title>
 
-  </head>
-  
-  
-  <body>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <h1>The Psychic Game</h1>
-
-    <p>Guess what letter I'm thinking of</p>
-
-
-    Wins: <span id = "m"></span>
-
-    <br>
-    <br>
-    
-
-    Losses: <span id = "k"></span>
-
-    <br>
-    <br>
-
-    Guesses Left: <span id = "nom"></span>
-
-    <br>
-    <br>
-	
-    Your Guesses so far: <span id= "letter"></span>
+</head>
+<body>
+<div>
+<h1>Guess what letter I'm thinking of...?</h1>
+<h2 id="wins">Wins: 0</h2>
+<h2 id="losses">Losses: 0</h2>
+<h2 id="guessesLeft">Guesses Left: 9</h2>
+<h2 id="chosen">Letters you have chosen: <span id="user-guess"></span> </h2>
+</div>
 
 
-  </body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
 </html>
-
-<script src = "assets/javascript/game.js"></script>
